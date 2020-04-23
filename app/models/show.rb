@@ -6,7 +6,7 @@ class Show < ActiveRecord::Base
   end
 
   def most_popular_show
-    
+
   end
 
   def lowest_rating
@@ -30,5 +30,5 @@ class Show < ActiveRecord::Base
   end
 
 
-  
+
 end
