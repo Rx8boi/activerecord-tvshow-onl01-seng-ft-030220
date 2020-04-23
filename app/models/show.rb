@@ -6,7 +6,7 @@ class Show < ActiveRecord::Base
   end
 
   def Show::most_popular_show
-    Show.order(:rating, :DESC)
+    Show.order(rating: :desc)
   end
 
   def lowest_rating
